@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SPOTSTAR</title>
+    <style>
+        h1{
+            text-align: center;        
+        }
+        #login{
+           border-radius: 20px;
+           margin-top: 15px;
+        }
+        #signup{
+            border-radius: 20px;
+            margin-top: 15px;
+        }
+        .spot{
+            color: rgb(255, 213, 0);
+        }
+       
+        #spotstar{
+            display: flex;
+            border: 1px black solid;
+            border-radius: 20px;
+            width: 500px; 
+            height: 450px;
+            margin-left: 600px;  
+            margin-top: 100px; 
+            background-image: url(../Pricing-table/background.jpg);
+            background-repeat: no-repeat;
+    	    background-size: cover;
+        }
+        #spotstar:hover{
+            background-color:darkturquoise;
+            border: 2px;
+        }
+        body{
+            background-image: url(../SPOTSTAR/mu.jpg);
+            background-repeat: no-repeat;
+    	    background-size: cover;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        #align{
+           margin-top: 60px;
+        }
+        #p{
+            margin-top: 50px;
+        }
+        .spot{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- <header>
+            <a href="index.html">
+                <img src="logo.png" class="logo">
+            </a>
+        </header> -->
+        <br>
+        <div id="spotstar">
+        <h1 class="spot">SPOTSTAR</h1>
+           <div style="text-align: center;" id="align">
+            <label>
+                USERNAME:
+               <input type="text" placeholder="Username">
+            </label>
+            <br>
+            <br>
+            <label>
+                PASSWORD:
+                <input type="text" placeholder="Password">
+            </label>
+            <br>
+            <br>
+            <a href="../SPOTSTAR/login.html"><button id="login">LOGIN</button></a>    
+            <p id="p"><u>Forget Password ?</u></p>
+            <p id="u">ARE YOU NEW USER ?</p>
+            <a href="../SPOTSTAR/signup.html"><button id="signup">SIGNUP</button></a>           
+            </div>
+        </div>
+    </main>
+</body>
+        
