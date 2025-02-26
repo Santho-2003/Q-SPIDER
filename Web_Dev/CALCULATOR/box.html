@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORMAL CALCULATOR</title>
+    <style>
+        #main{
+            background-color: rgb(82, 124, 136);
+            margin: 20px;
+            padding: 5px;
+            display: grid;
+            grid-template-areas: 'ONE TWO TWO THREE''FOUR FIVE SIX THREE''SEVEN EIGHT EIGHT EIGHT''SEVEN NINE TEN TEN';
+            width:400px;
+            margin-left: 450px;
+        }
+        #main>div{
+            background-color: rgba(240, 19, 70, 0.43);
+            margin: 2px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div style="grid-area: ONE;">1</div>
+        <div style="grid-area: TWO;">2</div>
+        <div style="grid-area: THREE;">3</div>
+        <div style="grid-area: FOUR;">4</div>
+        <div style="grid-area: FIVE;">5</div>
+        <div style="grid-area: SIX;">6</div>
+        <div style="grid-area: SEVEN;">7</div>
+        <div style="grid-area: EIGHT;">8</div>
+        <div style="grid-area: NINE;">9</div>
+        <div style="grid-area: TEN;">10</div>
+    </div>
+</body>
+</html>
