@@ -1,0 +1,8 @@
+main > h1{
+	color: yellowgreen;
+	background-color: black;
+}
+main > p{
+	color: red;
+	background-color: darkgray;
+}

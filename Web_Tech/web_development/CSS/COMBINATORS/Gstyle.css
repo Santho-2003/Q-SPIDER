@@ -1,0 +1,8 @@
+h2 ~ p{
+	color: darkviolet;
+	background-color: black;
+}
+h2 + p{
+	color: red;
+	background-color: wheat;
+}
